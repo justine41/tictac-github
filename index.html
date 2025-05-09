@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Tic Tac Toe 🎮</h1>
+
+  <div class="mode-buttons">
+    <button onclick="setMode('pvp')">Main Bareng Teman 🧑‍🤝‍🧑</button>
+    <button onclick="setMode('ai')">Lawan AI 🤖</button>
+  </div>
+
+  <div id="gameBoard"></div>
+  <p id="status"></p>
+  <button onclick="resetGame()">Ulangi Game 🔁</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
